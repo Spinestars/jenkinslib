@@ -1,6 +1,6 @@
 package org.devops
 
-//格式化输出
+//格式化输出, 需要AnsiColor插件支持
 def printMes(content, color){
     colors = ['red'   : "\033[40;31m >>>>>>>>>>>${content}<<<<<<<<<<< \033[0m",
               'blue'  : "\033[47;34m ${content} \033[0m",
